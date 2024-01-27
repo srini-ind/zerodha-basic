@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.navbar {
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  position: fixed;
+  background-color: #fff;
+  box-shadow: 2px 1px 2px #eee;
+  box-sizing: border-box;
+}
+
+.navbar > div.container {
+  position: relative;
+  width: 1100px;
+  max-width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0px 10px;
+}
+
+.navbar div.main-container {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 1 auto;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.navbar div.logo-container {
+  position: relative;
+  flex-basis: 39.3333333333%;
+  width: 39.3333333333%;
+  box-sizing: border-box;
+  flex: 0 1 auto;
+}
+
+.navbar div.nav-links-container {
+  flex-basis: 56.6666666667%;
+  width: 56.6666666667%;
+  box-sizing: border-box;
+  flex: 0 1 auto;
+}
+
+.navbar div.logo-container a img {
+  max-height: 17px;
+  vertical-align: middle;
+  position: relative;
+  top: 18px;
+  max-width: 100%;
+}
+
+.navbar ul {
+  list-style-type: none;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+  display: inline;
+}
+
+.navbar ul li a {
+  color: #666;
+    font-size: .9rem;
+    transition: color .3s;
+    display: inline-block;
+    padding: 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 400;
+}
