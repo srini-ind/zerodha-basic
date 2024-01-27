@@ -7,9 +7,14 @@ export default function App() {
   return (
     <div>
       <Header/>
-      <center>
-        <img src="assets/images/landing.png" alt="Zerodha, no. 1 stock broker in India"/>
-      </center>
+      <section className='landing'>
+        <div className='container'>
+          <img src={Landing} alt="Zerodha, no. 1 stock broker in India"/>
+          <h1>Invest in everything</h1>
+          <h5>Online platform to invest in stocks, derivatives, mutual funds, and more</h5>
+          <a>Sign up now</a>
+        </div>
+      </section>
     </div>
   );
 }

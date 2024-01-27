@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './assets/images/logo.svg';
+import logo from './assets/images/zerodha_logo.png';
 
 export default function Header() {
   return (

@@ -6,7 +6,7 @@ body {
   margin: 0;
   padding: 1rem;
   font-family: system-ui, sans-serif;
-  color: black;
+  color: #424242;
   background-color: white;
 }
 
@@ -79,11 +79,63 @@ h1 {
 
 .navbar ul li a {
   color: #666;
-    font-size: .9rem;
-    transition: color .3s;
-    display: inline-block;
-    padding: 20px;
-    box-sizing: border-box;
-    text-decoration: none;
-    font-weight: 400;
+  font-size: .9rem;
+  transition: color .3s;
+  display: inline-block;
+  padding: 20px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.landing {
+  margin-top: 10vh;
+  text-align: center;
+}
+
+.landing > div.container {
+  position: relative;
+  width: 1100px;
+  max-width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.landing > div.container > img {
+  margin-bottom: 60px;
+  max-height: 45vh;
+  max-width: 100%;
+}
+
+.landing > div.container > h1 {
+  font-size: 2.75rem;
+    line-height: 1.25;
+    margin-top: 0px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.landing > div.container > h5 {
+  margin-top: 10px;
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.landing > div.container > a {
+  margin-top: 25px;
+  background-color: #387ed1;
+  color: #fff;
+  border: 1px solid rgba(0,0,0,0) !important;
+  border-radius: 3px;
+  display: inline-block;
+  padding: 10px 30px;
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  font-weight: 500;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  box-sizing: border-box;
 }
